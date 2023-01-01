@@ -1,0 +1,20 @@
+.pagination li:first-of-type a {
+    border-radius: 18px 0 0 18px !important;
+}
+
+.pagination li:last-of-type a {
+    border-radius: 0 18px 18px 0 !important;
+}
+
+.pagination li a.active {
+    background-color: #dc3545;
+    color: white !important;
+    border-color: #dc3545;
+}
+
+.pagination li a:hover {
+    background-color: #f4bec3;
+    border-color: #f4bec3;
+    color: white !important;
+    font-weight: bold;
+}
